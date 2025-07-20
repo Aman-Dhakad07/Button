@@ -1,0 +1,51 @@
+.container{
+     width:100%;
+    height:100vh;
+    /* background-color:white;
+    border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     /* padding-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center; */
+} 
+
+.box{
+ height:30px;
+width:70px;
+border: 1px solid auto ;
+background-color: red;
+ text-align: center;
+place-content: center;
+box-shadow:  
+  -1em 0 0.4em  rgb(20, 14, 14);
+
+    transform:  3s infinite running slide-in; 
+
+
+     display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all 3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+}
+
+
+
+.cx:hover{
+    background-color: solid black;
+  transform:translate(500px);
+  
+      width: 100%;
+}
+
